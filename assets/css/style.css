@@ -11,7 +11,7 @@ body{
 }
 
 .column{
-background-color:#B8B7E2;
+background-color:#FFFEF1;
 float:left;
 width:310px;
 height:1050px;
@@ -135,6 +135,10 @@ ul{
     color:#6C64CA;
 }
 
+a{
+    text-decoration: none;
+}
+
 .bold{
     font-weight:bold;
 }
@@ -164,6 +168,7 @@ ul{
     padding-bottom:10px;
     height:150px;
     padding-top:250px;
+    border-radius:10px;
 }
 
 .blockColumn1, .blockColumn2, .blockColumn3, .blockColumn4{
@@ -172,6 +177,7 @@ ul{
     margin-left:35px;
     margin-top:15px;
     padding:10px;
+    border-radius:10px;
 }
 /*Colonne 1*/
 #firstBlockColumn1, .blockColumn1{

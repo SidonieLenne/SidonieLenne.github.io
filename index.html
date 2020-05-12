@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-    <head>
-        <meta charset="utf-8"/>
-        <title>CV numérique</title>
-        <link rel="stylesheet" href="assets/css/style.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Alice&family=Gotu&family=Poly&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <!--Fond-->
-        <div id="background">
-            <!--------------Colonne 1-------------->
-            <div class="column">
-                <!--Lune-->
-                <div class="moonBackground">
-                    <p id="contact">Contact</p>
-                    <div id="overMoon1"></div>
-                    <div id="moon1"></div>
-                </div>
-                <!--------Blocs de couleur-------->
-                <!--Bloc 1-->
+<head>
+    <meta charset="utf-8"/>
+    <title>CV numérique</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Gotu&family=Poly&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Fond-->
+    <div id="background">
+        <!--------------Colonne 1-------------->
+        <div class="column" id="column1">
+            <!--Lune-->
+            <div class="moonBackground" id="moonBackground1">
+                <p id="contact">Contact</p>
+                <div id="overMoon1"></div>
+                <div id="moon1"></div>
+            </div>
+            <!--------Blocs de couleur-------->
+            <!--Bloc 1-->
+            <div id="blockContainer1" style="display: none;">
                 <div id="firstBlockColumn1">
                     <ul>
                         <li><span class="bold">Sidonie Lenne</span></li>
@@ -30,27 +31,29 @@
                 <div class="blockColumn1">
                     <ul>
                         <li class="listCenter">06.04.18.58.49</li>
-                        <li>sidonie.lenne@gmail.com</li>
+                        <li><a href="mailto:sidonie.lenne@gmail.com">Mail</a></li>
                     </ul>
                 </div>
                 <!--Bloc 3-->
                 <div class="blockColumn1">
                     <ul>
-                        <li class="listCenter">Instagram - </li>
-                        <li>Linkedin - </li>
+                        <li class="listCenter"><a href="https://www.instagram.com/sad.sug.art/" target="blank">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/sidonie-lenne-16ab811a9" target="blank">Linkedin</a></li>
                         <li>Book - </li>
                     </ul>
                 </div>
             </div>
-            <!--------------Colonne 2-------------->
-            <div class="column">
-                <!--Lune-->
-                <div class="moonBackground">
-                    <p id="formations"><span class="purpleTitle">For</span>mations</p>
-                    <div id="moon2"></div>
-                </div>
-                <!--------Blocs de couleur-------->
-                <!--Bloc 1-->
+        </div>    
+        <!--------------Colonne 2-------------->
+        <div class="column" id="column2">
+            <!--Lune-->
+            <div class="moonBackground" id="moonBackground2">
+                <p id="formations"><span class="purpleTitle">For</span>mations</p>
+                <div id="moon2"></div>
+            </div>
+            <!--------Blocs de couleur-------->
+            <!--Bloc 1-->
+            <div id="blockContainer2" style="display: none;">
                 <div id="firstBlockColumn2">
                     <ul class="textCenter">
                         <li class="negativeMarg"><span class="bold">En cours</span></li>
@@ -81,15 +84,17 @@
                     </ul>
                 </div>
             </div>
-            <!--------------Colonne 3-------------->
-            <div class="column">
-                <!--Lune-->
-                <div class="moonBackground">
-                    <p id="professionalXp">Expérie<span class="purpleTitle">nces</span> professi<span class="purpleTitle">onnelle</span>s</p>
-                    <div id="moon3"></div>
-                </div>
-                <!--------Blocs de couleur-------->
-                <!--Bloc 1-->
+        </div>
+        <!--------------Colonne 3-------------->
+        <div class="column" id="column3">
+            <!--Lune-->
+            <div class="moonBackground" id="moonBackground3">
+                <p id="professionalXp">Expérie<span class="purpleTitle">nces</span> professi<span class="purpleTitle">onnelle</span>s</p>
+                <div id="moon3"></div>
+            </div>
+            <!--------Blocs de couleur-------->
+            <!--Bloc 1-->
+            <div id="blockContainer3" style="display: none;">
                 <div id="firstBlockColumn3">
                     <ul class="textCenter">
                         <li class="negativeMarg"><span class="bold">En cours</span></li>
@@ -101,30 +106,33 @@
                     <ul class="textCenter">
                         <li class="negativeMarg" ><span class="bold">2018</span> - Molliens Dreuil, France</li>
                         <li>Stage d'une semaine dans une école primaire.</li>
-                        </ul>
+                    </ul>
                 </div>
                 <!--Bloc 3-->
                 <div class="blockColumn3">
                     <ul class="textCenter">
                         <li class="negativeMarg"><span class="bold">2013</span> - Amiens, France</li>
                         <li>Réalisation du court-métrage Le journal d'une fièvre dans le cadre 
-                          du Color'Ado organisé par le Festival du film d'Amiens.
+                            du Color'Ado organisé par le Festival du film d'Amiens.
                         </li>
                         <li><span class="bold">2013</span> - Molliens-Dreuil, France</li>
                         <li>Stage d'une semaine dans une école primaire.</li>
-                        </ul>
+                    </ul>
                 </div>
             </div>
-            <!--------------Colonne 4-------------->
-            <div class="column">
-                <!--Lune-->
-                <div class="moonBackground">
-                    <p id="skills">Compétence<span class="purpleTitle">s</span>s</p>
-                    <div id="overMoon4"></div>
-                    <div id="moon4"></div>
-                </div>
-                <!--------Blocs de couleur-------->
-                <!--Bloc 1-->
+            
+        </div>
+        <!--------------Colonne 4-------------->
+        <div class="column" id="column4">
+            <!--Lune-->
+            <div class="moonBackground" id="moonBackground4">
+                <p id="skills">Compétence<span class="purpleTitle">s</span>s</p>
+                <div id="overMoon4"></div>
+                <div id="moon4"></div>
+            </div>
+            <!--------Blocs de couleur-------->
+            <!--Bloc 1-->
+            <div id="blockContainer4" style="display: none;">                
                 <div id="firstBlockColumn4">
                     <ul class="textRight">
                         <li><span class="bold">Langues parlées</span></li>
@@ -169,7 +177,7 @@
                             <div class="emptyCircle"></div>
                             <div class="fullCircle"></div>
                         </li>
-                        <li>Figma
+                        <li>Figma/Adobe XD
                             <div class="emptyCircle"></div>
                             <div class="emptyCircle"></div>
                             <div class="emptyCircle"></div>
@@ -180,6 +188,13 @@
                     <ul class="textRight">
                         <li><span class="bold">Langages parlés</span></li>
                         <li>HTML/CSS
+                            <div class="emptyCircle"></div>
+                            <div class="emptyCircle"></div>
+                            <div class="emptyCircle"></div>
+                            <div class="emptyCircle"></div>
+                            <div class="fullCircle"></div>
+                        </li>
+                        <li>JS/jQ
                             <div class="emptyCircle"></div>
                             <div class="emptyCircle"></div>
                             <div class="emptyCircle"></div>
@@ -203,5 +218,8 @@
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
