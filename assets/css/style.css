@@ -1,34 +1,75 @@
-/*Fond*/
-body{
-    background-color:#FFFEF1;
+/*.......................................GENERAL............................................*/
+#container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    width:100%;
+    height:100%;
+    background: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
 }
 
-#background{
-    width:1320px;
-    height:1050px;
-    margin:auto;
-    background-color:#FFFEF1;
+a{
+    text-decoration:none;
+    color:#000000;
 }
 
-.column{
-background-color:#FFFEF1;
-float:left;
-width:310px;
-height:1050px;
-margin-right:10px;
-margin-left:10px;
+p, li{
+    font-family: 'Quicksand', sans-serif;  
 }
-/*------------Lunes------------*/
+
+.bold{
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Work Sans', sans-serif; 
+    text-align:center; 
+}
+
+section{
+    height:auto;
+    width:auto;
+}
+/*.......................................HEADER............................................*/
+header{
+    text-align:center;
+    position:relative;
+}
+h1{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*........................................MAIN...........................................*/
+/*......ACCUEIL......*/
+/*Grille*/
+.moonGrid{
+    display:grid;
+    grid-template-columns:repeat(4, minmax(250px, 1fr));
+    width:90%;
+    margin:5%;
+    height:300px;
+    grid-column-gap:30px;
+    margin-bottom:10em;
+}
+
+.moonGridItem{
+    align-items:top;
+    position:relative;
+}
+/*..............Lunes...........*/
 /*Lune 1*/
 #overMoon1{
-    background-color:#B8B7E2;
+    background: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
     z-index:1;
     position:absolute;
     border-radius:50%;
     height:200px;
     width:200px;
     margin-top:25px;
-    margin-left:50px;
+    margin-left:42px;
 }
 
 #moon1{
@@ -40,9 +81,19 @@ margin-left:10px;
     margin:10px;
 }
 /*Lune 2*/
+#overMoon2{
+    background: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
+    border-radius:0 115px 115px 0;
+    z-index:1;
+    position:absolute;
+    width:115px;
+    height:230px;
+    margin:10px;
+    margin-left:125px;
+}
+
 #moon2{
     background-color:#FFFEF1;
-    z-index:1;
     border-radius:115px 0 0 115px;
     position:absolute;
     width:115px;
@@ -50,9 +101,17 @@ margin-left:10px;
     margin:10px;
 }
 /*Lune 3*/
+#overMoon3{
+    background: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
+    border-radius:115px 0 0 115px;
+    position:absolute;
+    width:115px;
+    height:230px;
+    margin:10px;
+}
+
 #moon3{
     background-color:#FFFEF1;
-    z-index:1;
     border-radius:0 115px 115px 0;
     position:absolute;
     width:115px;
@@ -62,13 +121,14 @@ margin-left:10px;
 }
 /*Lune 4*/
 #overMoon4{
-    background-color:#B8B7E2;
+    background: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
     z-index:1;
     position:absolute;
     border-radius:50%;
     height:200px;
     width:200px;
     margin-top:25px;
+    margin-left:8px;
 }
 
 #moon4{
@@ -79,137 +139,281 @@ margin-left:10px;
     width:230px;
     margin:10px;
 }
-/*Fond des lunes*/
-.moonBackground{
-    background-color:#B8B7E2;
+
+.categoryTitle{
     position:absolute;
-    margin-top:10px;
-    margin-right:30px;
-    margin-left:30px;
-    width:250px;
-    height:250px;
-    border-radius:50%;
+    z-index:1;
+    opacity:0;
 }
-/*------------Texte------------*/
-/*----Titres----*/
-.purpleTitle{
-    color:#B8B7E2;
+/*......CONTACT......*/
+#contactMain{
+    margin-top:20%;
 }
-
-#contact, #formations, #professionalXp, #skills {
-    font-family:'Alice',serif;
-    z-index:2;
+.gridContact{
+    display:grid;
+    grid-template-rows:repeat(2, minmax(100px, 2fr));
+    width:90%;
+    margin:5%;
+    height:300px;
+}
+.gridContactItem{
     position:relative;
-    color:#FFFEF1;
+    display:inline-flex;
 }
-/*Contact*/
-#contact{
-    font-size:35px;
-    float:right;
-    margin-top:40%;
+.iconContact, #plusPhone, #plusMail{
+    max-height:30px;
+    padding:1em;
 }
-/*Formations*/
-#formations{
-    font-size:35px;
-    float:right;
-    margin-top:40%;
-}
-/*Expériences professionnelles*/
-#professionalXp{
-    font-size:34px;
-    float:left;
-    margin-left:7px;
-    margin-top:33%;
-}
-/*Compétences*/
-#skills{
-    font-size:35px;
-    float:left;
-    margin-top:40%;
-}
-/*----Textes colonnes----*/
-ul{
-    list-style-type:none;
-    display:inline;
-    font-family:'Gotu',serif;
-    color:#6C64CA;
+.phoneNumber, .mailAdress{
+    display: none;
+    padding:1em;
 }
 
-a{
-    text-decoration: none;
-}
-
-.bold{
-    font-weight:bold;
-}
-/*Centrage vertical des zones de texte*/
-.negativeMarg{
-    margin-top:-30px;
-}
-
-.listCenter{
-    margin-top:50px;
-}
-/*Centrage horizontal des zones de texte*/
-.textCenter{
+.presentation{
     text-align:center;
+    display: inline;
+}
+/*.............FORMATIONS............*/
+#formationMain{
+    margin-top:20%;
+    width: 100%;
+    box-sizing: border-box;
+}
+#formationGrid{
+    display:grid;
+    grid-template-columns:repeat(3, minmax(100px, 2fr));
+    width:90%;
+    margin:5%;
+    height:auto;
+}
+.formationGridItem{
+    position:relative;
+    display:inline-flex;
+    justify-content:center;
 }
 
-.textRight{
-    text-align:right;
+#timeline{
+    height:100%;
+    width:2px;
+    background-color:#000000;
+    position:absolute;
 }
-/*------------Blocs de couleur------------*/
-#firstBlockColumn1, #firstBlockColumn2, #firstBlockColumn3, #firstBlockColumn4{
-    margin-right:35px;
-    margin-left:35px;
-    margin-top:20px;
-    padding-left:10px;
-    padding-right:10px;
-    padding-bottom:10px;
-    height:150px;
-    padding-top:250px;
-    border-radius:10px;
+.plusTimelineFormation{
+    max-height: 30px;
+    position:absolute;
 }
-
-.blockColumn1, .blockColumn2, .blockColumn3, .blockColumn4{
-    height:260px;
-    margin-right:35px;
-    margin-left:35px;
-    margin-top:15px;
-    padding:10px;
-    border-radius:10px;
+#plusTimelineFormation2{
+    margin-top:25%;
 }
-/*Colonne 1*/
-#firstBlockColumn1, .blockColumn1{
-    background-color:#DFD4F8;
+#plusTimelineFormation3{
+    margin-top:50%;
 }
-/*Colonne 2*/
-#firstBlockColumn2, .blockColumn2{
-    background-color:#D4E7F8;
-}
-/*Colonne 3*/
-#firstBlockColumn3, .blockColumn3{
-    background-color:#D4F8F1;
-}
-/*Colonne 4*/
-#firstBlockColumn4, .blockColumn4{
-    background-color:#D4F8DC;
-}
-/*------------Petits points de compétence-------------*/
-.fullCircle, .emptyCircle{
-    margin:1px;
-    float:right;
-    z-index:3;
-    width:11px;
-    height:11px;
-    border-radius:50%;
-    border:1px solid #B8B7E2;
+#plusTimelineFormation4{
+    margin-top:75%;
 }
 
-.fullCircle{
-    background-color:#FFFEF1;
+.formationText{
+    text-align:center;
+    margin:6%;
+}
+#text2020, #text2016, #text2015, #text2012{
+    display:none;
+}
+/*.....................EXPERIENCES...........................*/
+#xpMain{
+    margin-top:20%;
+    width: 100%;
+    box-sizing: border-box;
+}
+#xpGrid{
+    display:grid;
+    grid-template-columns:repeat(3, minmax(100px, 2fr));
+    width:90%;
+    margin:5%;
+    height:auto;
+}
+.xpGridItem{
+    position:relative;
+    display:inline-flex;
+    justify-content:center;
+}
+#timeline{
+    height:100%;
+    width:2px;
+    background-color:#000000;
+    position:absolute;
+}
+.plusTimelineXp{
+    max-height: 30px;
+    position:absolute;
+}
+#plusTimelineXp2{
+    margin-top:25%;
+}
+#plusTimelineXp3{
+    margin-top:50%;
+}
+#plusTimelineXp4{
+    margin-top:75%;
 }
 
-.emptyCircle{
-    background-color:#D4F8DC;
+.xpText{
+    text-align:center;
+    margin:10%;
+}
+#text2020xp, #text2018xp, #text2013xp, #text2013xpbis{
+    display:none;
+}
+/*..............COMPETENCES..................*/
+#skillsMain{
+    margin-top:20%;
+    margin-bottom:15%;
+}
+#skillGrid{
+    display:grid;
+    grid-template-columns:repeat(3, minmax(100px, 2fr));
+    width:90%;
+    margin:5%;
+    height:auto;
+}
+.skillGridItem{
+    position:relative;
+    margin:2%;
+}
+  .progressBar {
+    margin-bottom: 26px;
+    margin-bottom: 1.66em;
+  }
+  
+  .progressBar {
+    text-transform: none;
+    font-family: 'Quicksand', sans-serif;  
+    margin-bottom: 7px;
+    margin-bottom: .33em;
+  }
+  
+  .progressBarContainer {
+    width: 100%;
+    max-width: 10em;
+    height: 1em;
+    background: rgb(155, 142, 161);
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .progressBarValue {
+    height: 1.66em;
+    background: #000;
+  }
+  
+  .value-00 { width: 0; }
+  
+  .value-10 { width: 10%; }
+  
+  .value-20 { width: 20%; }
+  
+  .value-30 { width: 30%; }
+  
+  .value-40 { width: 40%; }
+  
+  .value-50 { width: 50%; }
+  
+  .value-60 { width: 60%; }
+  
+  .value-70 { width: 70%; }
+  
+  .value-80 { width: 80%; }
+  
+  .value-90 { width: 90%; }
+  
+  .value-100 { width: 100%; }
+
+  #skillGrid2{
+    display:grid;
+    grid-template-columns:repeat(2, minmax(100px, 2fr));
+    width:90%;
+    margin:5%;
+    text-align:center;
+    height:auto;
+}
+.skillGrid2Item{
+    position:relative;
+    text-align:center;
+    
+    margin:2%;
+}
+ul{
+    list-style-type: none;
+}
+/*.................................FOOTER.............................................*/
+/*shape*/
+.custom-shape-divider-bottom-1591374170 {
+    position:fixed;
+    margin-bottom: 0;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1591374170 svg {
+    z-index:-1;
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 175px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1591374170 .shape-fill {
+    fill: #000000;
+}
+/*Icones*/
+.iconGrid{
+    display:grid;
+    grid-template-columns:repeat(3, minmax(30px, 1fr));
+    width:10%;
+    margin:5%;
+    height:35px;
+    grid-column-gap:5px;
+    position:absolute;
+}
+.icon{
+    align-items:bottom;
+    position:relative;
+    max-height:30px;
+    transform: rotateY(180deg);
+    color:#ffffff;
+}
+
+/*.............................MEDIA QUERIES......................................*/
+@media (hover:none){
+    .moonGrid{
+        grid-template-columns:repeat(2, minmax(300px, 1fr));
+        width:80%;
+        justify-content:center;
+        margin:15%;
+        height:800px;
+        grid-column-gap:30px;
+    }
+    .formationGrid{
+        width:8%;
+    }
+    
+    .categoryTitle{
+        opacity:1;
+    }
+    #container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        overflow: auto;
+        width:100%;
+        height:100%;
+        background: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
+    }
 }
