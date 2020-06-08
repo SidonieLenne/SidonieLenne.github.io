@@ -148,6 +148,7 @@ h1{
 /*......CONTACT......*/
 #contactMain{
     margin-top:20%;
+    font-size:1.3em;
 }
 .gridContact{
     display:grid;
@@ -161,7 +162,7 @@ h1{
     display:inline-flex;
 }
 .iconContact, #plusPhone, #plusMail{
-    max-height:30px;
+    max-height:3em;
     padding:1em;
 }
 .phoneNumber, .mailAdress{
@@ -199,7 +200,7 @@ h1{
     position:absolute;
 }
 .plusTimelineFormation{
-    max-height: 30px;
+    max-height: 3em;
     position:absolute;
 }
 #plusTimelineFormation2{
@@ -214,7 +215,8 @@ h1{
 
 .formationText{
     text-align:center;
-    margin:6%;
+    margin:5%;
+    font-size:1.3em;
 }
 #text2020, #text2016, #text2015, #text2012{
     display:none;
@@ -244,7 +246,7 @@ h1{
     position:absolute;
 }
 .plusTimelineXp{
-    max-height: 30px;
+    max-height: 3em;
     position:absolute;
 }
 #plusTimelineXp2{
@@ -259,7 +261,8 @@ h1{
 
 .xpText{
     text-align:center;
-    margin:10%;
+    margin:5%;
+    font-size:1.3em;
 }
 #text2020xp, #text2018xp, #text2013xp, #text2013xpbis{
     display:none;
@@ -339,7 +342,7 @@ h1{
 .skillGrid2Item{
     position:relative;
     text-align:center;
-    
+    font-size:1.3em;
     margin:2%;
 }
 ul{
@@ -384,7 +387,6 @@ ul{
     align-items:bottom;
     position:relative;
     max-height:30px;
-    transform: rotateY(180deg);
     color:#ffffff;
 }
 
@@ -401,7 +403,12 @@ ul{
     .formationGrid{
         width:8%;
     }
-    
+    #plusPhone, #plusMail, .plusTimelineXp, .plusTimelineFormation{
+        max-height:3.5em;
+    }
+    img{
+
+    }
     .categoryTitle{
         opacity:1;
     }
