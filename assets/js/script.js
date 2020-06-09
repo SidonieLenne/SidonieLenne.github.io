@@ -61,109 +61,125 @@ $(document).ready(function(){
     });
     //...................................FORMATIONS......................................
     $('#plusTimelineFormation1').mouseover(function(){
-        $('#2020').css({'font-weight': 'bold', 'color': '#FFFEF1'});
+        $('.formation1title').transition({ opacity: '0.8'}, 500);
+        $('.formation1title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineFormation1').transition({ rotate: '180deg' });
         $('#plusTimelineFormation1').stop().transition({ rotate: '180deg' });
     });
     $('#plusTimelineFormation1').mouseout(function(){
-        $('#2020').css({'font-weight': 'normal', 'color': '#000000'});
+        $('.formation1title').transition({ opacity: '0.3'}, 500);
+        $('.formation1title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineFormation1').transition({ rotate: '360deg' });
         $('#plusTimelineFormation1').stop().transition({ rotate: '360deg' });
     });
     $('#plusTimelineFormation1').click(function(){
-        $('#text2020').toggle('slow');
+        $('.formation1text').toggle('slow');
     });
     $('#plusTimelineFormation2').mouseover(function(){
-        $('#2016').css({'font-weight': 'bold', 'color': '#FFFEF1'});
+        $('.formation2title').transition({ opacity: '0.8'}, 500);
+        $('.formation2title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineFormation2').transition({ rotate: '180deg' });
         $('#plusTimelineFormation2').stop().transition({ rotate: '180deg' });
     });
     $('#plusTimelineFormation2').mouseout(function(){
-        $('#2016').css({'font-weight': 'normal', 'color': '#000000'});
+        $('.formation2title').transition({ opacity: '0.3'}, 500);
+        $('.formation2title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineFormation2').transition({ rotate: '360deg' });
         $('#plusTimelineFormation2').stop().transition({ rotate: '360deg' });
     });
         $('#plusTimelineFormation2').click(function(){
-        $('#text2016').toggle('slow');
+            $('.formation2text').toggle('slow');
     });
     $('#plusTimelineFormation3').mouseover(function(){
-        $('#2015').css({'font-weight': 'bold', 'color': '#FFFEF1'});
+        $('.formation3title').transition({ opacity: '0.8'}, 500);
+        $('.formation3title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineFormation3').transition({ rotate: '180deg' });
         $('#plusTimelineFormation3').stop().transition({ rotate: '180deg' });
     });
     $('#plusTimelineFormation3').mouseout(function(){
-        $('#2015').css({'font-weight': 'normal', 'color': '#000000'});
+        $('.formation3title').transition({ opacity: '0.3'}, 500);
+        $('.formation3title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineFormation3').transition({ rotate: '360deg' });
         $('#plusTimelineFormation3').stop().transition({ rotate: '360deg' });
     });
     $('#plusTimelineFormation3').click(function(){
-        $('#text2015').toggle('slow');
+        $('.formation3text').toggle('slow');
     });
     $('#plusTimelineFormation4').mouseover(function(){
-        $('#2012').css({'font-weight': 'bold', 'color': '#FFFEF1'});
+        $('.formation4title').transition({ opacity: '0.8'}, 500);
+        $('.formation4title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineFormation4').transition({ rotate: '180deg' });
         $('#plusTimelineFormation4').stop().transition({ rotate: '180deg' });
     });
     $('#plusTimelineFormation4').mouseout(function(){
-        $('#2012').css({'font-weight': 'normal', 'color': '#000000'});
+        $('.formation4title').transition({ opacity: '0.3'}, 500);
+        $('.formation4title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineFormation4').transition({ rotate: '360deg' });
         $('#plusTimelineFormation4').stop().transition({ rotate: '360deg' });
     });
     $('#plusTimelineFormation4').click(function(){
-        $('#text2012').toggle('slow');
+        $('.formation4text').toggle('slow');
     });
      //...................................EXPERIENCES PRO......................................
      $('#plusTimelineXp1').mouseover(function(){
-        $('#2020xp').css({'font-weight': 'bold', 'color': '#FFFEF1'});
+        $('.xp1title').transition({ opacity: '0.8'}, 500);
+        $('.xp1title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineXp1').transition({ rotate: '180deg' });
         $('#plusTimelineXp1').stop().transition({ rotate: '180deg' });
     });
     $('#plusTimelineXp1').mouseout(function(){
-        $('#2020xp').css({'font-weight': 'normal', 'color': '#000000'});
+        $('.xp1title').transition({ opacity: '0.3'}, 500);
+        $('.xp1title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineXp1').transition({ rotate: '360deg' });
         $('#plusTimelineXp1').stop().transition({ rotate: '360deg' });
     });
     $('#plusTimelineXp1').click(function(){
-        $('#text2020xp').toggle('slow');
+        $('.xp1text').toggle('slow');
     });
     $('#plusTimelineXp2').mouseover(function(){
-        $('#2018xp').css({'font-weight': 'bold', 'color': '#FFFEF1'});
+        $('.xp2title').transition({ opacity: '0.8'}, 500);
+        $('.xp2title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineXp2').transition({ rotate: '180deg' });
         $('#plusTimelineXp2').stop().transition({ rotate: '180deg' });
     });
     $('#plusTimelineXp2').mouseout(function(){
-        $('#2018xp').css({'font-weight': 'normal', 'color': '#000000'});
+        $('.xp2title').transition({ opacity: '0.3'}, 500);
+        $('.xp2title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineXp2').transition({ rotate: '360deg' });
         $('#plusTimelineXp2').stop().transition({ rotate: '360deg' });
     });
         $('#plusTimelineXp2').click(function(){
-        $('#text2018xp').toggle('slow');
+            $('.xp2text').toggle('slow');
     });
     $('#plusTimelineXp3').mouseover(function(){
-        $('#2013xp').css({'font-weight': 'bold', 'color': '#FFFEF1'});
+        $('.xp3title').transition({ opacity: '0.8'}, 500);
+        $('.xp3title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineXp3').transition({ rotate: '180deg' });
         $('#plusTimelineXp3').stop().transition({ rotate: '180deg' });
     });
     $('#plusTimelineXp3').mouseout(function(){
-        $('#2013xp').css({'font-weight': 'normal', 'color': '#000000'});
+        $('.xp3title').transition({ opacity: '0.3'}, 500);
+        $('.xp3title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineXp3').transition({ rotate: '360deg' });
         $('#plusTimelineXp3').stop().transition({ rotate: '360deg' });
     });
     $('#plusTimelineXp3').click(function(){
-        $('#text2013xp').toggle('slow');
+        $('.xp3text').toggle('slow');
     });
     $('#plusTimelineXp4').mouseover(function(){
-        $('#2013xpbis').css({'font-weight': 'bold', 'color': '#FFFEF1'});
+        $('.xp4title').transition({ opacity: '0.8'}, 500);
+        $('.xp4title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineXp4').transition({ rotate: '180deg' });
         $('#plusTimelineXp4').stop().transition({ rotate: '180deg' });
     });
     $('#plusTimelineXp4').mouseout(function(){
-        $('#2013xpbis').css({'font-weight': 'normal', 'color': '#000000'});
+        $('.xp4title').transition({ opacity: '0.3'}, 500);
+        $('.xp4title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineXp4').transition({ rotate: '360deg' });
         $('#plusTimelineXp4').stop().transition({ rotate: '360deg' });
     });
     $('#plusTimelineXp4').click(function(){
-        $('#text2013xpbis').toggle('slow');
+        $('.xp4text').toggle('slow');
     });
     //....................................FOOTER........................................
     //Icones flip
@@ -198,5 +214,5 @@ $(document).ready(function(){
         $('.linkedinIcon').transition({ scale: 1.1 });
         $('.linkedinIcon').stop().transition({ scale: 1.1 });
     });
-    
+
 });
