@@ -65,12 +65,18 @@ $(document).ready(function(){
         $('.formation1title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineFormation1').transition({ rotate: '180deg' });
         $('#plusTimelineFormation1').stop().transition({ rotate: '180deg' });
+        $('#plusTimelineFormation1').attr('src', 'assets/images/petiteclairedroite.png');
+        $('#titleTimelineFormation1').css('color', '#fffef1');
+        $('.formation1title').css('color', '#fffef1');
     });
     $('#plusTimelineFormation1').mouseout(function(){
         $('.formation1title').transition({ opacity: '0.3'}, 500);
         $('.formation1title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineFormation1').transition({ rotate: '360deg' });
         $('#plusTimelineFormation1').stop().transition({ rotate: '360deg' });
+        $('#plusTimelineFormation1').attr('src', 'assets/images/petitesombredroite.png');
+        $('#titleTimelineFormation1').css('color', '#1d0029');
+        $('.formation1title').css('color', '#1d0029');
     });
     $('#plusTimelineFormation1').click(function(){
         $('.formation1text').toggle('slow');
@@ -80,12 +86,18 @@ $(document).ready(function(){
         $('.formation2title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineFormation2').transition({ rotate: '180deg' });
         $('#plusTimelineFormation2').stop().transition({ rotate: '180deg' });
+        $('#plusTimelineFormation2').attr('src', 'assets/images/grandeclairedroite.png');
+        $('#titleTimelineFormation2').css('color', '#fffef1');
+        $('.formation2title').css('color', '#fffef1');
     });
     $('#plusTimelineFormation2').mouseout(function(){
         $('.formation2title').transition({ opacity: '0.3'}, 500);
         $('.formation2title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineFormation2').transition({ rotate: '360deg' });
         $('#plusTimelineFormation2').stop().transition({ rotate: '360deg' });
+        $('#plusTimelineFormation2').attr('src', 'assets/images/grandesombredroite.png');
+        $('#titleTimelineFormation2').css('color', '#1d0029');
+        $('.formation2title').css('color', '#1d0029');
     });
         $('#plusTimelineFormation2').click(function(){
             $('.formation2text').toggle('slow');
@@ -95,12 +107,18 @@ $(document).ready(function(){
         $('.formation3title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineFormation3').transition({ rotate: '180deg' });
         $('#plusTimelineFormation3').stop().transition({ rotate: '180deg' });
+        $('#plusTimelineFormation3').attr('src', 'assets/images/grandeclairegauche.png');
+        $('#titleTimelineFormation3').css('color', '#fffef1');
+        $('.formation3title').css('color', '#fffef1');
     });
     $('#plusTimelineFormation3').mouseout(function(){
         $('.formation3title').transition({ opacity: '0.3'}, 500);
         $('.formation3title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineFormation3').transition({ rotate: '360deg' });
         $('#plusTimelineFormation3').stop().transition({ rotate: '360deg' });
+        $('#plusTimelineFormation3').attr('src', 'assets/images/grandesombregauche.png');
+        $('#titleTimelineFormation3').css('color', '#1d0029');
+        $('.formation3title').css('color', '#1d0029');
     });
     $('#plusTimelineFormation3').click(function(){
         $('.formation3text').toggle('slow');
@@ -110,12 +128,18 @@ $(document).ready(function(){
         $('.formation4title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineFormation4').transition({ rotate: '180deg' });
         $('#plusTimelineFormation4').stop().transition({ rotate: '180deg' });
+        $('#plusTimelineFormation4').attr('src', 'assets/images/petiteclairegauche.png');
+        $('#titleTimelineFormation4').css('color', '#fffef1');
+        $('.formation4title').css('color', '#fffef1');
     });
     $('#plusTimelineFormation4').mouseout(function(){
         $('.formation4title').transition({ opacity: '0.3'}, 500);
         $('.formation4title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineFormation4').transition({ rotate: '360deg' });
         $('#plusTimelineFormation4').stop().transition({ rotate: '360deg' });
+        $('#plusTimelineFormation4').attr('src', 'assets/images/petitesombregauche.png');
+        $('#titleTimelineFormation4').css('color', '#1d0029');
+        $('.formation4title').css('color', '#1d0029');
     });
     $('#plusTimelineFormation4').click(function(){
         $('.formation4text').toggle('slow');
@@ -126,12 +150,18 @@ $(document).ready(function(){
         $('.xp1title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineXp1').transition({ rotate: '180deg' });
         $('#plusTimelineXp1').stop().transition({ rotate: '180deg' });
+        $('#plusTimelineXp1').attr('src', 'assets/images/petiteclairedroite.png');
+        $('#titleTimelineXp1').css('color', '#fffef1');
+        $('.xp1title').css('color', '#fffef1');
     });
     $('#plusTimelineXp1').mouseout(function(){
         $('.xp1title').transition({ opacity: '0.3'}, 500);
         $('.xp1title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineXp1').transition({ rotate: '360deg' });
         $('#plusTimelineXp1').stop().transition({ rotate: '360deg' });
+        $('#plusTimelineXp1').attr('src', 'assets/images/petitesombredroite.png');
+        $('#titleTimelineXp1').css('color', '#1d0029');
+        $('.xp1title').css('color', '#1d0029');
     });
     $('#plusTimelineXp1').click(function(){
         $('.xp1text').toggle('slow');
@@ -141,12 +171,18 @@ $(document).ready(function(){
         $('.xp2title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineXp2').transition({ rotate: '180deg' });
         $('#plusTimelineXp2').stop().transition({ rotate: '180deg' });
+        $('#plusTimelineXp2').attr('src', 'assets/images/grandeclairedroite.png');
+        $('#titleTimelineXp2').css('color', '#fffef1');
+        $('.xp2title').css('color', '#fffef1');
     });
     $('#plusTimelineXp2').mouseout(function(){
         $('.xp2title').transition({ opacity: '0.3'}, 500);
         $('.xp2title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineXp2').transition({ rotate: '360deg' });
         $('#plusTimelineXp2').stop().transition({ rotate: '360deg' });
+        $('#plusTimelineXp2').attr('src', 'assets/images/grandesombredroite.png');
+        $('#titleTimelineXp2').css('color', '#1d0029');
+        $('.xp2title').css('color', '#1d0029');
     });
         $('#plusTimelineXp2').click(function(){
             $('.xp2text').toggle('slow');
@@ -156,12 +192,18 @@ $(document).ready(function(){
         $('.xp3title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineXp3').transition({ rotate: '180deg' });
         $('#plusTimelineXp3').stop().transition({ rotate: '180deg' });
+        $('#plusTimelineXp3').attr('src', 'assets/images/grandeclairegauche.png');
+        $('#titleTimelineXp3').css('color', '#fffef1');
+        $('.xp3title').css('color', '#fffef1');
     });
     $('#plusTimelineXp3').mouseout(function(){
         $('.xp3title').transition({ opacity: '0.3'}, 500);
         $('.xp3title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineXp3').transition({ rotate: '360deg' });
         $('#plusTimelineXp3').stop().transition({ rotate: '360deg' });
+        $('#plusTimelineXp3').attr('src', 'assets/images/grandesombregauche.png');
+        $('#titleTimelineXp3').css('color', '#1d0029');
+        $('.xp3title').css('color', '#1d0029');
     });
     $('#plusTimelineXp3').click(function(){
         $('.xp3text').toggle('slow');
@@ -171,12 +213,18 @@ $(document).ready(function(){
         $('.xp4title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineXp4').transition({ rotate: '180deg' });
         $('#plusTimelineXp4').stop().transition({ rotate: '180deg' });
+        $('#plusTimelineXp4').attr('src', 'assets/images/petiteclairegauche.png');
+        $('#titleTimelineXp4').css('color', '#fffef1');
+        $('.xp4title').css('color', '#fffef1');
     });
     $('#plusTimelineXp4').mouseout(function(){
         $('.xp4title').transition({ opacity: '0.3'}, 500);
         $('.xp4title').stop().transition({ opacity: '0.3'}, 500);
         $('#plusTimelineXp4').transition({ rotate: '360deg' });
         $('#plusTimelineXp4').stop().transition({ rotate: '360deg' });
+        $('#plusTimelineXp4').attr('src', 'assets/images/petitesombregauche.png');
+        $('#titleTimelineXp4').css('color', '#1d0029');
+        $('.xp4title').css('color', '#1d0029');
     });
     $('#plusTimelineXp4').click(function(){
         $('.xp4text').toggle('slow');

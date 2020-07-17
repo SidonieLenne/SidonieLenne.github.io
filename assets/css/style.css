@@ -13,7 +13,7 @@
 
 a{
     text-decoration:none;
-    color:#1D0029;
+    color:#1d0029;
 }
 
 p, li{
@@ -310,6 +310,7 @@ h1{
 .plusTimelineFormation, .plusTimelineXp{
     max-height: 3em;
     cursor: pointer;
+    text-size-adjust:blue;
 }
 /*..............COMPETENCES..................*/
 #skillsMain{
