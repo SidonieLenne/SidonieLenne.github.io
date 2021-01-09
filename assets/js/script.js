@@ -229,6 +229,27 @@ $(document).ready(function(){
     $('#plusTimelineXp4').click(function(){
         $('.xp4text').toggle('slow');
     });
+    $('#plusTimelineXp5').mouseover(function(){
+        $('.xp5title').transition({ opacity: '0.8'}, 500);
+        $('.xp5title').stop().transition({ opacity: '0.8'}, 500);
+        $('#plusTimelineXp5').transition({ rotate: '180deg' });
+        $('#plusTimelineXp5').stop().transition({ rotate: '180deg' });
+        $('#plusTimelineXp5').attr('src', 'assets/images/grandeclairegauche.png');
+        $('#titleTimelineXp5').css('color', '#fffef1');
+        $('.xp5title').css('color', '#fffef1');
+    });
+    $('#plusTimelineXp5').mouseout(function(){
+        $('.xp5title').transition({ opacity: '0.3'}, 500);
+        $('.xp5title').stop().transition({ opacity: '0.3'}, 500);
+        $('#plusTimelineXp5').transition({ rotate: '360deg' });
+        $('#plusTimelineXp5').stop().transition({ rotate: '360deg' });
+        $('#plusTimelineXp5').attr('src', 'assets/images/grandesombregauche.png');
+        $('#titleTimelineXp5').css('color', '#1d0029');
+        $('.xp5title').css('color', '#1d0029');
+    });
+    $('#plusTimelineXp5').click(function(){
+        $('.xp5text').toggle('slow');
+    });
     //....................................FOOTER........................................
     //Icones flip
     $('.icon').transition({
