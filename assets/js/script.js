@@ -251,11 +251,6 @@ $(document).ready(function(){
         $('.xp5text').toggle('slow');
     });
     //....................................FOOTER........................................
-    //Icones flip
-    $('.icon').transition({
-        perspective: '100px',
-        rotateX: '180deg'
-    });
     //Insta icon aggrandissement
     $('.instaIcon').mouseover(function(){
         $('.instaIcon').transition({ scale: 2.2 });
@@ -283,5 +278,21 @@ $(document).ready(function(){
         $('.linkedinIcon').transition({ scale: 1.1 });
         $('.linkedinIcon').stop().transition({ scale: 1.1 });
     });
-
+        //Book icon aggrandissement
+        $('.bookIcon').mouseover(function(){
+            $('.bookIcon').transition({ scale: 2.2 });
+            $('.bookIcon').stop().transition({ scale: 2.2 });
+        });
+        $('.bookIcon').mouseout(function(){
+            $('.bookIcon').transition({ scale: 1.1 });
+            $('.bookIcon').stop().transition({ scale: 1.1 });
+        });
+        $('#headerMoonBook').mouseover(function(){
+            $('#headerMoonBook').transition({ rotate: '180deg' });
+            $('#headerMoonBook').stop().transition({ rotate: '180deg' });
+        });
+        $('#headerMoonBook').mouseout(function(){
+            $('#headerMoonBook').transition({ rotate: '360deg' });
+            $('#headerMoonBook').stop().transition({ rotate: '360deg' });
+        });
 });
