@@ -497,20 +497,21 @@ ul{
 }
 /*....header....*/
 #bookHeader{
-    width: 100%;
+    width: 99%;
     height:320px;
-    
+    margin-bottom:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #bookHeaderContent{
     position:absolute;
-    width:115px;
     height:230px;
     display: flex;
-    margin-left:43%;
     margin-top:5%;
 }
 #bookHeaderContent h1, #bookHeaderContent h2{
-    margin-left:50%;
+    margin-left:20%;
 }
 /*lune*/
 #headerMoonBook{
@@ -525,24 +526,32 @@ ul{
     font-size:1.3em;
     color:#B98389;
 }
-#summary{
+/*sommaire*/
+.summaryGrid{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin:auto;
+    position:relative;
+    grid-template-areas: ". . a a a b b c c c . .";
+}
+.SGChild{
     text-align: center;
-    margin:100px;
 }
-#summaryTitle{
-    text-align:center;
-    font-size:1.4em;
-    color:#7E8287;
+.SGChilda{
+    grid-area: a;
 }
-.summaryLi{
-    font-size: 1.3em;
-    margin:10px;
+.SGChildb{
+    grid-area: b;
 }
-.summarySubLi{
-    font-size:0.8em;
-    text-align: left;
-    margin-left:40%;
-    margin-top:10px;
+.SGChildc{
+    grid-area: c;
+}
+.summaryTitle{
+    font-size:1.5em;
+}
+.summarySubTitle{
+    padding:10px;
+    margin-right:40px;
 }
 /*gallerie*/
 .galleryGrid {
