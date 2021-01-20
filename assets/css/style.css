@@ -570,19 +570,21 @@ ul{
     margin:50px;
     position:relative;
     grid-template-areas: "a a a b b b";
-    width:90%;
+    gap:10px ;
+    max-width:98%;
     align-items: center;
     text-align: center;
 }
 .GGimg{
-    grid-area:a;
-    
+    grid-area:b;
 }
 .GGtxt{
-    grid-area: b;
+    grid-area:a;
 }
 .galleryGridimg{
-    max-width:500px;
+    max-width:100%;
+    height: 100%;
+    display: block;
 }
 .gallerySubtitle{
     text-align:center;
@@ -620,6 +622,97 @@ ul{
     transform: rotate(45deg);
     border: 1px solid #1d0029;
     background-color:#B98389;
+}
+
+
+.trigger {
+    display: none;
+}
+
+.slider, .slider-wrapper {
+    position: relative;
+    height: 250px;
+}
+
+.slide {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 5000;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+.slide-img {
+    max-height: 100%;
+    object-fit: contain;
+    
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.slide-figure {
+    height: 100%;
+    position: relative;
+    margin: 0;
+}
+
+.trigger:checked + .slide {
+    z-index: 6000;
+    opacity: 1;
+}
+
+.slider-nav {
+    width: 92%;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.slider-nav__item {
+    display: inline-block;
+    margin-right:20px;
+}
+
+.slider-nav__label {
+    font-size: 13px;
+    background-color: #333;
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    width: 2em;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: background-color .25s, color .25s ease-in-out;
+}
+
+.slider-nav__label:hover,
+.slider-nav__label:active,
+.slider-nav__label:focus {
+    background-color: gray;
+}
+@media only screen and (min-width: 1024px) {
+    .slider, .slider-wrapper {
+        height: 480px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .slider, .slider-wrapper {
+        height: 360px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .slide-img {
+        width: 100%;
+        height: auto;
+    }
 }
 /*.................................MEDIA QUERIES.......................................*/
 @media screen and (max-width: 1080px){
