@@ -660,12 +660,10 @@ ul{
     position: relative;
     margin: 0;
 }
-
 .trigger:checked + .slide {
     z-index: 6000;
     opacity: 1;
 }
-
 .slider-nav {
     width: 92%;
     text-align: center;
