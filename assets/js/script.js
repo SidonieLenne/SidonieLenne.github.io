@@ -99,8 +99,8 @@ $(document).ready(function(){
         $('#titleTimelineFormation2').css('color', '#1d0029');
         $('.formation2title').css('color', '#1d0029');
     });
-        $('#plusTimelineFormation2').click(function(){
-            $('.formation2text').toggle('slow');
+    $('#plusTimelineFormation2').click(function(){
+        $('.formation2text').toggle('slow');
     });
     $('#plusTimelineFormation3').mouseover(function(){
         $('.formation3title').transition({ opacity: '0.8'}, 500);
@@ -144,8 +144,8 @@ $(document).ready(function(){
     $('#plusTimelineFormation4').click(function(){
         $('.formation4text').toggle('slow');
     });
-     //...................................EXPERIENCES PRO......................................
-     $('#plusTimelineXp1').mouseover(function(){
+    //...................................EXPERIENCES PRO......................................
+    $('#plusTimelineXp1').mouseover(function(){
         $('.xp1title').transition({ opacity: '0.8'}, 500);
         $('.xp1title').stop().transition({ opacity: '0.8'}, 500);
         $('#plusTimelineXp1').transition({ rotate: '180deg' });
@@ -184,8 +184,8 @@ $(document).ready(function(){
         $('#titleTimelineXp2').css('color', '#1d0029');
         $('.xp2title').css('color', '#1d0029');
     });
-        $('#plusTimelineXp2').click(function(){
-            $('.xp2text').toggle('slow');
+    $('#plusTimelineXp2').click(function(){
+        $('.xp2text').toggle('slow');
     });
     $('#plusTimelineXp3').mouseover(function(){
         $('.xp3title').transition({ opacity: '0.8'}, 500);
@@ -278,21 +278,23 @@ $(document).ready(function(){
         $('.linkedinIcon').transition({ scale: 1.1 });
         $('.linkedinIcon').stop().transition({ scale: 1.1 });
     });
-        //Book icon aggrandissement
-        $('.bookIcon').mouseover(function(){
-            $('.bookIcon').transition({ scale: 2.2 });
-            $('.bookIcon').stop().transition({ scale: 2.2 });
-        });
-        $('.bookIcon').mouseout(function(){
-            $('.bookIcon').transition({ scale: 1.1 });
-            $('.bookIcon').stop().transition({ scale: 1.1 });
-        });
-        $('#headerMoonBook').mouseover(function(){
-            $('#headerMoonBook').transition({ rotate: '180deg' });
-            $('#headerMoonBook').stop().transition({ rotate: '180deg' });
-        });
-        $('#headerMoonBook').mouseout(function(){
-            $('#headerMoonBook').transition({ rotate: '360deg' });
-            $('#headerMoonBook').stop().transition({ rotate: '360deg' });
-        });
+    //Book icon aggrandissement
+    $('.bookIcon').mouseover(function(){
+        $('.bookIcon').transition({ scale: 2.2 });
+        $('.bookIcon').stop().transition({ scale: 2.2 });
+    });
+    $('.bookIcon').mouseout(function(){
+        $('.bookIcon').transition({ scale: 1.1 });
+        $('.bookIcon').stop().transition({ scale: 1.1 });
+    });
+    $('#headerMoonBook').mouseover(function(){
+        $('#headerMoonBook').transition({ rotate: '180deg' });
+        $('#headerMoonBook').stop().transition({ rotate: '180deg' });
+    });
+    $('#headerMoonBook').mouseout(function(){
+        $('#headerMoonBook').transition({ rotate: '360deg' });
+        $('#headerMoonBook').stop().transition({ rotate: '360deg' });
+    });
+    /*.......................................................SSSSSSSSSSSSSLLLLLLLLLLLLLLLIIIIIIIIIIIIIIIICCCCCCCCCCCCCKKKKKKKKKKK................................................*/
+    $('.tuezmoi').slick();  
 });
