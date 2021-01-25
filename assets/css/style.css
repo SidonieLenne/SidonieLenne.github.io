@@ -41,7 +41,7 @@ h3{
 h4{
     font-family: 'Quicksand', sans-serif;
     font-size: larger;
-    color:#B98389;
+    color:#7E8287;
     text-align: center;
     margin-top:70px;
 }
@@ -559,7 +559,7 @@ ul{
     margin-right:40px;
 }
 /*gallerie*/
-.categoryTitle{
+.categoryTitleBOOK{
     font-size:40px;
     color:#B98389;
     text-align: center ;
@@ -574,6 +574,9 @@ ul{
     max-width:98%;
     align-items: center;
     text-align: center;
+}
+.galleryGridtxt{
+    text-align: left;
 }
 .GGimg{
     grid-area:b;
