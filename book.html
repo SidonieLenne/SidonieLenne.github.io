@@ -4,8 +4,7 @@
     <meta charset="utf-8"/>
     <title>CV numérique</title>
     <link rel="icon" type="image/png" href="assets/images/moon1.png"/>
-    <link rel="stylesheet" href="assets/js/Carousel-Slideshow-jdSlider/public/src/css/jquery.jdSlider.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.X.X/css/all.css" />
+    <link type="text/css" rel="stylesheet" href="assets/js/lightGallery-master/dist/css/lightgallery.min.css" /> 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Wire+One&family=Work+Sans:wght@300&display=swap" rel="stylesheet"/>
 </head>
@@ -37,16 +36,21 @@
                     <div class="SGChild SGChilda">
                         <a href="#projects" class="summaryTitle">Projets</a>
                         <ul>
-                            <li class="summarySubTitle"><a href="#projectOutilly" >Outilly</a></li>
+                            <li class="summarySubTitle"><a href="#projectOutilly">Outilly</a></li>
                             <li class="summarySubTitle"><a href="#projectCP">Cartospé Packaging</a></li>
                             <li class="summarySubTitle"><a href="#projectArc">Arcane</a></li>
                         </ul>
                     </div>
                     <div class="SGChild SGChildb">
-                        <a href="#maquette" class="summaryTitle">Maquettes</a>
+                        <a href="#autres" class="summaryTitle">Autres</a>
+                        <ul>
+                            <li class="summarySubTitle"><a href="#autresShi">Shifumi</a></li>
+                            <li class="summarySubTitle"><a href="#autresMN">Manga News</a></li>
+                            <li class="summarySubTitle"><a href="#autresMA">Mobil'Art</a></li>
+                        </ul>
                     </div>
                     <div class="SGChild SGChildc">
-                        <a href="#autres" class="summaryTitle">Autres</a>
+                        <a href="#apropos" class="summaryTitle">À propos</a>
                     </div>
                 </div>
             </section>
@@ -66,31 +70,28 @@
                             <span class="bold">Maquettes pour Outilly</span>
                         </p>
                         <p class="galleryGridtxt">
-                            • Création de <span class="bold">maquettes</span> , notamment la <span class="bold">page d'accueil</span> , le <span class="bold">dashboard</span>  de l'utilisateur connecté et le <span class="bold">tunnel d'achat</span>; le tout en version PC et mobile.</br>
+                            • Création de <span class="bold">maquettes</span> , notamment la <span class="bold">page d'accueil</span> , le <span class="bold">dashboard</span>  de l'utilisateur connecté et le <span class="bold">tunnel d'achat</span>; le tout en version PC et mobile.</br></br>
                             • Le site se devait d'être <span class="bold">simple, efficace et l'interface engageante</span>. Outilly souhaitant s'adresser à une large audience, il était impératif que ces 
                             éléments soient réunis afin que tout le monde puisse s'y retrouver, y compris les personnes peu habituées à naviguer sur des sites de bricolage,
                             ou de vente de particulier à particulier. Chaque étape doit pouvoir permettre à l'acheteur de comprendre clairement ce qu'il achète, à quel prix, et comment il 
-                            recevra son bien.</br> 
+                            recevra son bien.</br></br>
                             • Une fois l'achat fait, les deux partis doivent également pouvoir savoir clairement ce qu'ils ont à faire pour que la suite de la transaction
                             se passe au mieux, d'où l'importance d'un <span class="bold">dashboard clair et efficace</span> à l'aide d'un système de notification lorsqu'une action est requise. 
                         </p>
                     </div>
                     <!--image-->
                     <div class="GGimg">
-                        <section class="jd-slider example">
-                            <div class="slide-inner">
-                                <ul class="slide-area">
-                                    <li><img src="assets/images/responsiveoutilly.png" alt="#"/></li>
-                                    <li><img src="assets/images/accueilpcoutilly.png" alt="#"/></li>
-                                    <li><img src="assets/images/accueilmobileoutilly.png" alt="#"/></li>
-                                </ul>
-                            </div>
-                            <a class="prev" href="#"><i class="fas fa-angle-left fa-2x"></i></a>
-                            <a class="next" href="#"><i class="fas fa-angle-right fa-2x"></i></a>
-                            <div class="controller">
-                                <div class="indicate-area"></div>
-                            </div>
-                        </section>   
+                        <div class="lightgallery">
+                            <a href="assets/images/responsiveoutilly.png">
+                                <img class="img1gallery" src="assets/images/responsiveoutilly.png" />
+                            </a>
+                            <a href="assets/images/accueilpcoutilly.png">
+                                <img class="imggallery" src="assets/images/accueilpcoutilly.png" />
+                            </a>
+                            <a href="assets/images/accueilmobileoutilly.png">
+                                <img class="imggallery" src="assets/images/accueilmobileoutilly.png" />
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="divider div-transparent"></div>
@@ -102,33 +103,36 @@
                             <span class="bold">Logos pour Outilly</span>
                         </p>
                         <p class="galleryGridtxt">
-                            • Recherches pour le <span class="bold"> logo</span>, jusqu'à arriver au logo définitif et à ses déclinaisons selon l'environnement dans lequel il sera utilisé.</br>
+                            • Recherches pour le <span class="bold"> logo</span>, jusqu'à arriver au logo définitif et à ses déclinaisons selon l'environnement dans lequel il sera utilisé.</br></br>
                             • Beaucoup de discutions et d'hésitations ont gravité autour de la création de ce logo:</br>
                             Il fallait qu'il englobe beaucoup de choses, véhicule beaucoup de messages sans pour autant être trop chargé ni trop complexe. 
                             Au début pensé pour reprendre le "O" de "Outilly" en y ajoutant quelques éléments comme une équerre, un mètre, ou évoquer la localisation, 
                             nous avons finalement décidé d'écrire entièrement le nom "Outilly" sur le logo, en ne gardant que l'effet du mètre sur le "O", dont le ruban forme
-                            une sorte de toit pour rappeller la maison, et un "Y" arrondi et symétrique, pouvant rappeler une clé utilisée en mécanique.</br>
+                            une sorte de toit pour rappeller la maison, et un "Y" arrondi et symétrique, pouvant rappeler une clé utilisée en mécanique.</br></br>
                             • Ainsi, le logo est <span class="bold"> simple, clair et reste assez subtil</span>. C'était important de <span class="bold"> ne pas rentrer dans le cliché</span>, Outilly voulant s'adresser à une large audience. 
                         </p>
                     </div>
                     <!--image-->
                     <div class="GGimg"> 
-                        <section class="jd-slider example">
-                            <div class="slide-inner">
-                                <ul class="slide-area">
-                                    <li><img src="assets/images/logooutilly.png" alt="#"/></li>
-                                    <li><img src="assets/images/logooutilly1.png" alt="#"/></li>
-                                    <li><img src="assets/images/logooutilly2.png" alt="#"/></li>
-                                    <li><img src="assets/images/logooutilly3.png" alt="#"/></li>
-                                    <li><img src="assets/images/logooutilly4.png" alt="#"/></li>
-                                </ul>
+                        <div class="GGimg">
+                            <div class="lightgallery">
+                                <a href="assets/images/logooutilly.png">
+                                    <img class="img1gallery" src="assets/images/logooutilly.png"/>
+                                </a>
+                                <a href="assets/images/logooutilly1.png">
+                                    <img class="imggallery" src="assets/images/logooutilly1.png" />
+                                </a>
+                                <a href="assets/images/logooutilly2.png">
+                                    <img class="imggallery" src="assets/images/logooutilly2.png"/>
+                                </a>
+                                <a href="assets/images/logooutilly3.png">
+                                    <img class="imggallery" src="assets/images/logooutilly3.png" />
+                                </a>
+                                <a href="assets/images/logooutilly4.png">
+                                    <img class="imggallery" src="assets/images/logooutilly4.png" />
+                                </a>
                             </div>
-                            <a class="prev" href="#"><i class="fas fa-angle-left fa-2x"></i></a>
-                            <a class="next" href="#"><i class="fas fa-angle-right fa-2x"></i></a>
-                            <div class="controller">
-                                <div class="indicate-area"></div>
-                            </div>
-                        </section>
+                        </div>
                     </div>
                 </div>
                 <div class="divider div-transparent div-arrow-down"></div>
@@ -143,14 +147,14 @@
                             <span class="bold">Maquettes pour Cartospé Packaging</span> 
                         </p>
                         <p class="galleryGridtxt">
-                            • Création de <span class="bold">maquettes</span> et de la <span class="bold">charte graphique</span> avec <span class="bold">Adobe XD</span> et <span class="bold">Photoshop</span>, avant la création du site grâce à l'outil <span class="bold">WordPress</span>.</br>
+                            • Création de <span class="bold">maquettes</span> et de la <span class="bold">charte graphique</span> avec <span class="bold">Adobe XD</span> et <span class="bold">Photoshop</span>, avant la création du site grâce à l'outil <span class="bold">WordPress</span>.</br></br>
                             • Avant tout, j'ai crée la <span class="bold">charte grahique</span> en m'inspirant de celle déjà présente sur les autres supports de l'entreprise (flyers...), tout en l'adaptant
-                            pour le Web. L'entreprise tenait notamment à garder le bleu et le orange, ainsi qu'à intégrer l'effet dégradé.</br>
+                            pour le Web. L'entreprise tenait notamment à garder le bleu et le orange, ainsi qu'à intégrer l'effet dégradé.</br></br>
                             • Concernant les<span class="bold"> maquettes</span>, j'ai d'abord fait une préselection de <span class="bold">thèmes WordPress</span> qui pouvaient correspondre aux besoins du site, 
                             puis j'ai fait les maquettes principales (accueil, fiche produit...) pour les deux thèmes retenus, 
                             afin d'avoir un support pour moi, mais aussi pour l'entreprise pour qui c'était les premiers éléments visuels concernant le futur aspect de leur site.</br> Après comparaison
                             des deux versions nous en avons choisi une, afin que je puisse faire les autres maquettes qui serviront de support pour les modifications, avant d'être validées et que 
-                            je puisse passer à l'intégration du site via l'outil <span class="bold">WordPress</span>.</br>
+                            je puisse passer à l'intégration du site via l'outil <span class="bold">WordPress</span>.</br></br>
                             • Le plus important pour l'entreprise était d'avoir un site <span class="bold">clair, simple et lisible</span>, sans fioritures. </br>
                             Après analyse, nous avons défini que leur cible principale
                             n'était pas habituée à naviguer sur le web et se rendaient sur ce site avec des besoins précis qui nécessitaient de trouver rapidement n'importe quelle information recherchée, 
@@ -159,21 +163,20 @@
                     </div> 
                     <!--image-->
                     <div class="GGimg">
-                        <section class="jd-slider example">
-                            <div class="slide-inner">
-                                <ul class="slide-area">
-                                    <li><img src="assets/images/responsivecartospe.png" alt="#"/></li>
-                                    <li><img src="assets/images/accueilpccartospe.PNG" alt="#"/></li>
-                                    <li><img src="assets/images/accueilmobilecartospe.PNG" alt="#"/></li>
-                                    <li><img src="assets/images/moussepccartospe.PNG" alt="#"/></li>
-                                </ul>
-                            </div>
-                            <a class="prev" href="#"><i class="fas fa-angle-left fa-2x"></i></a>
-                            <a class="next" href="#"><i class="fas fa-angle-right fa-2x"></i></a>
-                            <div class="controller">
-                                <div class="indicate-area"></div>
-                            </div>
-                        </section>
+                        <div class="lightgallery">
+                            <a href="assets/images/responsivecartospe.png">
+                                <img class="img1gallery" src="assets/images/responsivecartospe.png"/>
+                            </a>
+                            <a href="assets/images/accueilpccartospe.PNG">
+                                <img class="imggallery" src="assets/images/accueilpccartospe.PNG" />
+                            </a>
+                            <a href="assets/images/accueilmobilecartospe.PNG">
+                                <img class="imggallery" src="assets/images/accueilmobilecartospe.PNG"/>
+                            </a>
+                            <a href="assets/images/moussepccartospe.PNG">
+                                <img class="imggallery" src="assets/images/moussepccartospe.PNG"/>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="divider div-transparent div-arrow-down"></div>
@@ -188,7 +191,7 @@
                             <span class="bold">Logo pour Arcane</span> 
                         </p>
                         <p class="galleryGridtxt">
-                            • Création du <span class="bold">logo</span> de la marque <span class="bold">Arcane</span> à l'aide d'<span class="bold">Adobe Illustrator</span>, et de différentes déclinaisons selon l'environnement dans lequel il sera utilisé.</br> 
+                            • Création du <span class="bold">logo</span> de la marque <span class="bold">Arcane</span> à l'aide d'<span class="bold">Adobe Illustrator</span>, et de différentes déclinaisons selon l'environnement dans lequel il sera utilisé.</br></br> 
                             • Pour la création de ce logo, je souhaitais quelque chose d'assez <span class="bold">simple</span>, la police d'écriture utilisée étant déjà reconnaissable à elle seule (d'où l'utilisation du "A" seul pour la petite version du logo).</br>
                             J'ai donc opté pour une forme arrondie entourée de petites feuilles, fermée avec un cristal en bas de la forme. Ainsi, ce logo évoque <span class="bold">la nature</span> qui est 
                             au centre des préoccupations de la marque, mais aussi le mystique et la touche de l'homme à travers le cristal taillé. Je lui ai ajouté des <span class="bold">couleurs pastels</span>
@@ -197,20 +200,17 @@
                     </div>
                     <!--image-->
                     <div class="GGimg">
-                        <section class="jd-slider example">
-                            <div class="slide-inner">
-                                <ul class="slide-area">
-                                    <li><img src="assets/images/logoarcane.png" alt="#"/></li>
-                                    <li><img src="assets/images/logonoirarcane.jpg" alt="#"/></li>
-                                    <li><img src="assets/images/tshirtarcane.png" alt="#"/></li>
-                                </ul>
-                            </div>
-                            <a class="prev" href="#"><i class="fas fa-angle-left fa-2x"></i></a>
-                            <a class="next" href="#"><i class="fas fa-angle-right fa-2x"></i></a>
-                            <div class="controller">
-                                <div class="indicate-area"></div>
-                            </div>
-                        </section>
+                        <div class="lightgallery">
+                            <a href="assets/images/logoarcane.png">
+                                <img class="img1gallery" src="assets/images/logoarcane.png"/>
+                            </a>
+                            <a href="assets/images/logonoirarcane.jpg">
+                                <img class="imggallery" src="assets/images/logonoirarcane.jpg"/>
+                            </a>
+                            <a href="assets/images/tshirtarcane.png">
+                                <img class="imggallery" src="assets/images/tshirtarcane.png" />
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="divider div-transparent"></div>
@@ -219,29 +219,26 @@
                     <div class="GGtxt">
                         <p class="galleryGridtitle"><span class="bold">Dépliants explicatifs vendus avec les parfums</span></p>
                         <p class="galleryGridtxt">
-                            • Création de <span class="bold">dépliants</span> vendus avec chaque parfum à l'aide d'<span class="bold">Adobe InDesign</span>, donnant des explications et la composition relatives à ce dernier.</br> 
+                            • Création de <span class="bold">dépliants</span> vendus avec chaque parfum à l'aide d'<span class="bold">Adobe InDesign</span>, donnant des explications et la composition relatives à ce dernier.</br> </br>
                             • J'ai avant tout crée des visuels des parfums censés être commercialisés à l'aide d'<span class="bold">Adobe Photoshop</span>, puis je les ai intégrés à ce dépliant.</br> Chaque dépliant est différent selon le parfum auquel il est 
-                            associé : Chaque parfum à sa couleur, son odeur (et donc sa composition), son histoire, et c'est ce que le dépliant va expliquer.</br>
+                            associé : Chaque parfum à sa couleur, son odeur (et donc sa composition), son histoire, et c'est ce que le dépliant va expliquer.</br></br>
                             • Ces dépliants étant accompagnés du parfum et d'une carte à planter, la dernière face est consacrée à un tutoriel dessiné par mes soins sur <span class="bold">Adobe Illustrator</span>, destiné à
                             expliquer comment planter cette carte pour que les graines qu'elle contient fleurissent correctement. 
                         </p> 
                     </div>
                     <!--images-->
                     <div class="GGimg">
-                        <section class="jd-slider example">
-                            <div class="slide-inner">
-                                <ul class="slide-area">
-                                    <li><img src="assets/images/flyerarcane.png" alt="#"/></li>
-                                    <li><img src="assets/images/flyerarcanemat.jpg" alt="#"/></li>
-                                    <li><img src="assets/images/flyerarcanemagicien.jpg" alt="#"/></li>
-                                </ul>
-                            </div>
-                            <a class="prev" href="#"><i class="fas fa-angle-left fa-2x"></i></a>
-                            <a class="next" href="#"><i class="fas fa-angle-right fa-2x"></i></a>
-                            <div class="controller">
-                                <div class="indicate-area"></div>
-                            </div>
-                        </section>
+                        <div class="lightgallery">
+                            <a href="assets/images/flyerarcane.png">
+                                <img class="img1gallery" src="assets/images/flyerarcane.png"/>
+                            </a>
+                            <a href="assets/images/flyerarcanemat.jpg">
+                                <img class="imggallery" src="assets/images/flyerarcanemat.jpg" />
+                            </a>
+                            <a href="assets/images/flyerarcanemagicien.jpg">
+                                <img class="imggallery" src="assets/images/flyerarcanemagicien.jpg"/>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="divider div-transparent"></div>
@@ -250,8 +247,8 @@
                     <div class="GGtxt">
                         <p class="galleryGridtitle"><span class="bold">Différents montages pour les réseaux d'Arcane</span></p>
                         <p class="galleryGridtxt">
-                            • Création de différents montages à l'aide d'<span class="bold">Adobe Photoshop</span>, destinés à être utilisés sur les réseaux sociaux de la marque <span class="bold">Arcane</span>. </br>
-                            • En parrallèle, création d'un <span class="bold">planning de post sur les réseaux sociaux</span> de la marque sur <span class="bold">Trello</span>.</br>
+                            • Création de différents montages à l'aide d'<span class="bold">Adobe Photoshop</span>, destinés à être utilisés sur les réseaux sociaux de la marque <span class="bold">Arcane</span>. </br></br>
+                            • En parrallèle, création d'un <span class="bold">planning de post sur les réseaux sociaux</span> de la marque sur <span class="bold">Trello</span>.</br></br>
                             • La marque étant axée en partie sur les arts divinatoires et l'astrologie, j'ai pensé à adapter les fils de leur réseaux sociaux selon le signe astrologique, à travers 
                             les couleurs, les sujets traités, qui seront censés correspondre au signe astrologique actuel. </br>J'ai également fait différents photomontages censés illustrer un
                             article, un changement de signe, ou autre évènement couvert par les réseaux sociaux d'Arcane.
@@ -259,32 +256,122 @@
                     </div>
                     <!--image-->
                     <div class="GGimg">
-                        <section class="jd-slider example">
-                            <div class="slide-inner">
-                                <ul class="slide-area">
-                                    <li><img src="assets/images/montagearcane.png" alt="#"/></li>
-                                    <li><img src="assets/images/tigrearcane.png" alt="#"/></li>
-                                    <li><img src="assets/images/tiragearcane.png" alt="#"/></li>
-                                    <li><img src="assets/images/verseauarcane.png" alt="#"/></li>
-                                    <li><img src="assets/images/capriarcane.png" alt="#"/></li>
-                                    <li><img src="assets/images/justicearcane.png" alt="#"/></li>
-                                </ul>
-                            </div>
-                            <a class="prev" href="#"><i class="fas fa-angle-left fa-2x"></i></a>
-                            <a class="next" href="#"><i class="fas fa-angle-right fa-2x"></i></a>
-                            <div class="controller">
-                                <div class="indicate-area"></div>
-                            </div>
-                        </section>
+                        <div class="lightgallery">
+                            <a href="assets/images/montagearcane.png">
+                                <img class="img1gallery" src="assets/images/montagearcane.png"/>
+                            </a>
+                            <a href="assets/images/tigrearcane.png">
+                                <img class="imggallery" src="assets/images/tigrearcane.png" />
+                            </a>
+                            <a href="assets/images/tiragearcane.png">
+                                <img class="imggallery" src="assets/images/tiragearcane.png"/>
+                            </a>
+                            <a href="assets/images/justicearcane.png">
+                                <img class="imggallery" src="assets/images/justicearcane.png" />
+                            </a>
+                            <a href="assets/images/verseauarcane.png">
+                                <img class="imggallery" src="assets/images/verseauarcane.png" />
+                            </a>
+                            <a href="assets/images/capriarcane.png">
+                                <img class="imggallery" src="assets/images/capriarcane.png" />
+                            </a>
+                        </div>
                     </div>
-                </div> 
-            </div>
-        </section>
-    </main>
-</div>
-<script src="assets/js/jquery-3.5.1.min.js"></script>
-<script src="assets/js/jquery.transit-master/jquery.transit.js"></script>
-<script src="assets/js/Carousel-Slideshow-jdSlider/public/src/js/jquery.jdSlider-latest.js"></script>
-<script src="assets/js/script.js"></script>
+                </div>
+            </section>
+            <div class="divider div-transparent"></div><div class="divider div-transparent div-arrow-down"></div><div class="divider div-transparent"></div>
+            <!--............................................ PARTIE 2...........................................................-->
+            <section id="autres"><h3 class="categoryTitleBOOK">Autres</h3>
+                <!--........................................SHIFUMI............................................--> 
+                <!--titre-->
+                <h4 id="autresShi">Shifumi</h4>
+                <div class="galleryGrid">
+                    <!--texte-->
+                    <p class="galleryGridtxt">
+                        • Exercice de création d'un jeu de shifumi en ligne (la suite arrivera demain)
+                    </p>
+                    <!--image-->
+                    <div class="GGimg">
+                        <div class="lightgallery">
+                            <a href="assets/images/pcshifumi.PNG">
+                                <img class="img1gallery" src="assets/images/pcshifumi.PNG"/>
+                            </a>
+                            <a href="assets/images/mobileshifumi.PNG">
+                                <img class="imggallery" src="assets/images/mobileshifumi.PNG" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider div-transparent div-arrow-down"></div>
+                <!--........................................MANGA NEWS............................................--> 
+                <!--titre-->
+                <h4 id="autresMN">Manga News</h4>
+                <div class="galleryGrid">
+                    <!--texte-->
+                    <p class="galleryGridtxt">
+                        • Exercice de création de maquettes pour une refonte du site Manga News. (la suite arrivera demain)
+                    </p>
+                    <!--image-->
+                    <div class="GGimg">
+                        <div class="lightgallery">
+                            <a href="assets/images/accueilpcmanga.png">
+                                <img class="img1gallery" src="assets/images/accueilpcmanga.png"/>
+                            </a>
+                            <a href="assets/images/accueilpcmangahover.png">
+                                <img class="imggallery" src="assets/images/accueilpcmangahover.png" />
+                            </a>
+                            <a href="assets/images/accueilmobilemanga.png">
+                                <img class="imggallery" src="assets/images/accueilmobilemanga.png"/>
+                            </a>
+                            <a href="assets/images/accueilmobilemangahover.png">
+                                <img class="imggallery" src="assets/images/accueilmobilemangahover.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider div-transparent div-arrow-down"></div>
+                <!--........................................MOBILART............................................--> 
+                <!--titre-->
+                <h4 id="autresMA">Mobil'Art</h4>
+                <div class="galleryGrid">
+                    <!--texte-->
+                    <p class="galleryGridtxt">
+                        • Exercice de création et intégration de maquettes pour une entreprise de vente de meubles. (la suite arrivera demain)
+                    </p>
+                    <!--image-->
+                    <div class="GGimg">
+                        <div class="lightgallery">
+                            <a href="assets/images/accueilpcmobilart.png">
+                                <img class="img1gallery" src="assets/images/accueilpcmobilart.png"/>
+                            </a>
+                            <a href="assets/images/accueilmobilemangahover.png">
+                                <img class="imggallery" src="assets/images/accueilmobilemobilart.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="divider div-transparent"></div><div class="divider div-transparent div-arrow-down"></div><div class="divider div-transparent"></div>
+            <!--............................................ PARTIE 3...........................................................-->
+            <section id="apropos"><h3 class="categoryTitleBOOK">À propos</h3>
+                <div class="galleryGrid">
+                    <!--texte-->
+                    <p class="galleryGridtxt">
+                        • c'est une présentation de moi :)
+                    </p>
+                    <!--image-->
+                    <div class="GGimg">
+                        <img class="moi" src="assets/images/moi.PNG" alt="#"/>
+                    </div>
+                </div>
+                
+            </section>
+        </main>
+    </div>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/jquery.transit-master/jquery.transit.js"></script>
+    <script src="assets/js/lightGallery-master/dist/js/lightgallery.min.js"></script>
+    <script src="assets/js/lightGallery-master/modules/lg-thumbnail.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -295,5 +295,7 @@ $(document).ready(function(){
         $('#headerMoonBook').transition({ rotate: '360deg' });
         $('#headerMoonBook').stop().transition({ rotate: '360deg' });
     });
-    $('.example').jdSlider();
+    $('.lightgallery').lightGallery({
+        thumbnail:true,
+    }); 
 });

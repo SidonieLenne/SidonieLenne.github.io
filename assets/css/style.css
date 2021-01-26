@@ -621,7 +621,20 @@ ul{
     border: 1px solid #1d0029;
     background-color:#B98389;
 }
-
+/*......galère numéro 239.........*/
+.img1gallery{
+    max-height:350px;
+    display:block;
+    margin:0 auto;
+}
+.imggallery{
+    max-height:100px;
+}
+.moi{
+    max-height:200px;
+    margin: 0 auto;
+    border-radius:50%;
+}
 /*.................................MEDIA QUERIES.......................................*/
 @media screen and (max-width: 1080px){
     .summaryGrid{
