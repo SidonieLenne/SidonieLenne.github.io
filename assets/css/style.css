@@ -583,6 +583,7 @@ ul{
 }
 .GGtxt{
     grid-area:a;
+    margin-left:15px;
 }
 .gallerySubtitle{
     text-align:center;
@@ -649,5 +650,10 @@ ul{
     .galleryGrid {
         grid-template-areas: "a a a a a a"
         "b b b b b b";
+    }
+    .GGtxt{
+        grid-area:a;
+        margin-left:25px;
+        margin-right:25px;
     }
 }
