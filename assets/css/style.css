@@ -334,6 +334,7 @@ h1{
 
 .timelineText {
     line-height: 1.5;
+    
     margin: 0.5rem 0 0;
     display:none;
 }
@@ -413,10 +414,13 @@ h1{
     text-align:center;
     height:auto;
 }
-.skillGrid2Item{
+.skillGrid2item{
     position:relative;
     text-align:center;
     margin:2%;
+}
+.skillGrid2item ul{
+    margin-right:30px;
 }
 ul{
     list-style-type: none;
@@ -481,9 +485,20 @@ ul{
     }
     .icon{
         max-height:50px;
+        margin-bottom: 10px;
     }
     .bookIcon{
         font-size:25px;
+    }
+    #skillGrid{
+        display:grid;
+        grid-template-columns:repeat(1, minmax(100px, 2fr));
+        width:90%;
+        margin:10%;
+        height:auto;
+    }
+    .timelineText{
+        font-size: 1.4em;
     }
 }
 /*..............................................................................BOOK................................................................................*/
@@ -553,6 +568,7 @@ ul{
 }
 .summaryTitle{
     font-size:1.5em;
+    font-weight: 700;
 }
 .summarySubTitle{
     padding:10px;
